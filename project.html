@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Projects</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+	<link rel="stylesheet" href="index.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="navbar">
+		<img src="C:\Users\20ann\OneDrive\Desktop\DataStructuresFinal\TransparentSquareImage.PNG" class="logo">
+		  <a class="header" href="index.html">Anna Olson Portfolio</a>
+		  <div class="spacer"></div>
+		  <ul>
+			<li><a href="project.html">Projects</a></li>
+			<li><a href="information.html">Contact Information</a></li>
+		  </ul>
+		</div>
+		
+		<div class="container" style="margin-top:50px">
+		<h3>Projects</h3>
+		<div class="row">
+		<div class="col-md-3">
+			<button class="accordion">Capstone Project</button>
+			<div class="panel">
+			  <p>My Capstone Project was a semester-long group project that replicated the real world Agile project lifecycle through simulated 2 week sprints, including through the use of:</p>
+			  <ul>
+				<li>Sprint Planning</li>
+				<li>Sprint Products</li>
+				<li>Sprint Retrospectives</li>
+				<li>Weekly Standups</li>
+				<li>A real life Client</li>
+			  </ul>			  
+			  <p>I worked in a team with 3 other members; we also worked with a real life project sponsor and champion. Some of the big sprint products we produced were: </p> 
+			  <ul>
+				<li>An New Admission Policies and Procedures Document</li>
+				<li>The Recommendation and Installation of new Hardware</li>
+				<li>The Reconfiguration and Updation of their new website</li>
+			  </ul>		
+			</div>
+
+			
+			
+		</div>
+		<div class="col-md-3">
+			<button class="accordion">Java II Final Project</button>
+			<div class="panel">
+			  <p>My Java II Final was a DND character creation sheet that implemented the use of Java and JavaFX. Some things that this site did was that it...</p>
+			  <ul>
+				<li>Implemented the use of an API to pull information about DND features</li>
+				<li>Facilitated the ability to load and store characters using CRUD operations</li>
+				<li>Allowed usage of JavaFX for user-friendly interface</li>
+			  </ul>
+			  <img src="C:\Users\20ann\OneDrive\Desktop\DataStructuresFinal\characterCreatetorScreenShot.jpg"" width="360" height="240" id="imageSelfie"></a>
+			</div>
+
+		</div>
+		<div class="col-md-3">
+			<button class="accordion">Machine Learning Final Project</button>
+			<div class="panel">
+			  <p>My Machine Learning Data Science project looked at the usage of Spatial Dropout layers instead of standard dropout layers; it tested to see if this would increase testing accuracy.</p>
+			  <p><a href="https://docs.google.com/document/d/1Fvk3y45ky2HWimU9XP7-6Ysy9cIfYVwB9J_2CMLDZ38/edit?usp=sharing" target="_blank">Report Writeup</a></p>
+			  <p>As confirmed through the tests of this project, the use of Spatial Dropout 2D layers did not increase the testing results scores over the use of standard Dropout layers.</p>
+			</div>
+
+		</div>
+		<div class="col-md-3">
+			<button class="accordion">This Portfolio</button>
+			<div class="panel">
+			  <p>This portfolio was the completion of a project in its own self: the entire project was built from scratch and scraps, products of my time online this summer and again during finals week.</p>
+			</div>
+
+		</div>
+	  </div>
+	</div>
+
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+
+
+  </body>
+</html>
